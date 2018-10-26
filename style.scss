@@ -217,7 +217,7 @@ img {
   &::after {
     content:"\00a0\00a0█";
     color:$white;
-    animation: blink 1s steps(3) infinite;
+    animation: blink 1.5s steps(1) infinite;
   }
 }
 
