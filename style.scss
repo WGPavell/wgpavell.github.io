@@ -208,7 +208,7 @@ img {
   @include mobile {
     margin: 3px 0;
   }
-  ::after {
+  &::after {
     content:" ";
     margin-right:10px;
     border-right: 10px solid $white;
