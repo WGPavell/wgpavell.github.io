@@ -10,7 +10,22 @@ layout: default
   </div>
 
   <div class="date">
-    Опубликовано {{ page.date | date: "%B %e, %Y" }}
+    Опубликовано {{ page.date | date: "%-d" }}{% assign month = page.date | date: '%-m' %}
+    {% case month %}
+        {% when '1' %}января
+        {% when '2' %}февраля
+        {% when '3' %}марта
+        {% when '4' %}апреля
+        {% when '5' %}мая
+        {% when '6' %}июня
+        {% when '7' %}июля
+        {% when '8' %}августа
+        {% when '9' %}сентября
+        {% when '10' %}октября
+        {% when '11' %}ноября
+        {% when '12' %}декабря
+    {% endcase %}
+    {{ page.modified | date: "%Y" }}
   </div>
 
   {% include disqus.html %}
