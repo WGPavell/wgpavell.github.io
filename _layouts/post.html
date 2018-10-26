@@ -25,7 +25,7 @@ layout: default
         {% when '11' %}ноября
         {% when '12' %}декабря
     {% endcase %}
-    {{ page.modified | date: "%Y" }}
+    {{ page.date | date: "%Y" }}
   </div>
 
   {% include disqus.html %}
