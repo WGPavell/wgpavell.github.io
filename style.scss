@@ -210,7 +210,7 @@ img {
   }
   &::after {
     content:" ";
-    margin-right:10px;
+    margin-left:10px;
     border-right: 10px solid $white;
   }
 }
