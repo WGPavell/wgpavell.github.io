@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {{ site.posts | reverse }}
+  {% site.posts | reverse %}
   {% for post in site.posts %}
     <article class="post">
 
