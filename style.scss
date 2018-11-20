@@ -252,6 +252,11 @@ nav {
   border-bottom: 1px solid gray;
   margin: 0;
   margin-left: 10px;
+  padding: 10px;
+
+  &:nth-last-child {
+    border-bottom: none;
+  }
 
   .category-head {
     margin: 0;
@@ -305,9 +310,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  /* background-color: $lightGray; */
+  background-color: $lightGray; */
 }
 
 footer {
