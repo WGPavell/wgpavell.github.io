@@ -2,7 +2,7 @@
 layout: post
 title: Основы cBackup
 date: 2018-11-30 17:00:00
-categories: [Cbackup]
+categories: [cBackup]
 ---
 
 *Не прошло и месяца, как новая статья...*
